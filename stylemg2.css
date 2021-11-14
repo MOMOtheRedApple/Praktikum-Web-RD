@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.container{
+    margin: 120px auto;
+    border: 2px solid black;
+    width: 600px;
+    height: auto;
+}
+header{
+    background-color:orange;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+nav{
+    background-color: darkred;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+
+img{
+    display: block;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.keterangan{
+    width: 90%;
+}
+.body{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.maincontent{
+    background-color: lightgrey;
+    height: 200px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+.kontenberita{
+    background-color: lightgreen;
+    height: 200px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+}
+p2{
+    padding: 10px;
+    text-align: left;
+}
+footer{
+    background-color: grey;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+}
